@@ -171,7 +171,7 @@
 	var baseMaps = {
 		'OSM Standard': basemap_0
 	};
-	L.control.layers(baseMaps,{"Busroutes": exp_BusroutesJSON,"Busstops": cluster_groupBusstopsJSON,"Numofbusstopsinsubzones": exp_NumofbusstopsinsubzonesJSON,"Subzones": exp_SubzonesJSON},{collapsed:false}).addTo(map);
+	L.control.layers(baseMaps,{"Bus routes": exp_BusroutesJSON,"Bus stops": cluster_groupBusstopsJSON,"No. of bus stops in subzones": exp_NumofbusstopsinsubzonesJSON,"Subzones": exp_SubzonesJSON},{collapsed:false}).addTo(map);
 		function updateOpacity(value) {
 	}
 	L.control.scale({options: {position: 'bottomleft',maxWidth: 100,metric: true,imperial: false,updateWhenIdle: false}}).addTo(map);
